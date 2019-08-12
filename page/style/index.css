@@ -1,0 +1,151 @@
+.every_day{
+    width: 100%;
+    background-color: #fff;
+    text-align: left;
+    border-radius: 5px;
+    box-shadow: 3px 4px 3px #888;
+    padding: 10px 15px;
+    box-sizing: border-box;
+}
+
+.every_day:before {
+    font-family: MyIcon;
+    content: '\e122';
+    font-size: 12px;
+    color: slateblue;
+    position: relative;
+    display: block;
+    height: 0px;
+    left: 54px;
+}
+
+.every_day > span {
+    display: block;
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: slateblue;
+}
+
+.article_list {
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 15px;
+    text-align: left;
+}
+
+.article {
+    background: #fff;
+    display: inline-block;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 1px 2px 2px #888;
+    overflow: hidden;
+    margin-top: 15px;
+    /*padding: 10px 15px;*/
+}
+
+.article_title {
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    color: #13102b;
+    padding: 20px 10px 5px 10px;
+}
+
+.article_title:hover {
+    color: #337ab7;
+}
+
+.article_content {
+    font-size: 14px;
+    color: #12102b;
+    padding: 0px 10px 20px 10px;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow: hidden;
+}
+
+.article_foot {
+    width: 100%;
+    color: #eee;
+    background: #1f1f1f;
+    padding-left: 10px;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.right_moodule {
+    background: #1f1f1f;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 0px 0px 25px 0px;
+}
+
+.right_moodule > div {
+    color: #eee;
+    font-size: 14px;
+    padding: 10px;
+    background: #000;
+    border-radius: 10px;
+}
+
+.right_moodule > a {
+    display: inline-block;
+    font-size: 14px;
+    color: dodgerblue;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.right_moodule > ul > li {
+    list-style: none;
+    color: #fff;
+    padding: 8px 10px;
+    border-bottom: 1px solid #292929;
+    position: relative;
+}
+
+.right_moodule > ul > li > a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #eee;
+    /*margin-left: 10px;*/
+}
+
+.right_moodule > ul > li > a:hover {
+    color: dodgerblue;
+}
+
+.right_moodule > ul > li > div{
+    padding: 5px 0px;
+}
+
+.right_moodule > ul > li > span {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.p_time {
+    position: absolute;
+    right: 15px;
+}
+
+.right_moodule > ul > li > p {
+    font-size: 14px;
+    color: #777;
+}
+
+.right_moodule > span {
+    display: inline-block;
+    width: 48%;
+    height: 30px;
+    font-size: 14px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.right_moodule > span > a{
+    color: #eee;
+    text-decoration: none;
+}
